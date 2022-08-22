@@ -25,6 +25,6 @@ export default function Modal({ onCloseModal, src, tags }) {
 
 Modal.propTypes = {
   src: PropTypes.string,
-  alt: PropTypes.string,
+  tags: PropTypes.string,
   onCloseModal: PropTypes.func,
 };
